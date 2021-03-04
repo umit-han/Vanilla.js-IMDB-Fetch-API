@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilia JS Fetch API</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Search film</h1>
+        <div class="flex">
+            <form id="form" class="flex">
+                <input type="text" id="input-search" placeholder="Search for film or keywords">
+                <button id="btn-search" class="btn-search" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <button class="btn-random" id="random">
+                <i class="fas fa-random"></i>
+            </button>
+        </div>
+        <div id="searched-word" class="searched-word">
+
+        </div>
+
+        <div id="cards-film"></div>
+
+
+        <div id="film-img" class="film-img"></div>
+        <div id="card-film-detail"></div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
